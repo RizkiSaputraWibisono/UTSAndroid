@@ -1,4 +1,4 @@
-package polinema.ac.id.androiduistarter.activities;
+package polinema.ac.id.UTS.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.PagerAdapter;
@@ -15,7 +15,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import polinema.ac.id.androiduistarter.R;
+import polinema.ac.id.UTS.R;
 
 public class WelcomeActivity extends AppCompatActivity {
 
@@ -37,8 +37,6 @@ public class WelcomeActivity extends AppCompatActivity {
             btnNext = findViewById(R.id.btn_next);
             layouts = new int[]{
                     R.layout.welcome_slide1,
-                    R.layout.welcome_slide2,
-                    R.layout.welcome_slide3,
                     R.layout.welcome_slide4};
 
             addBottomDots(0);
@@ -130,7 +128,8 @@ public class WelcomeActivity extends AppCompatActivity {
             }
         };
 
-        /**
+
+    /**
          * View pager adapter
          */
         public class MyViewPagerAdapter extends PagerAdapter {

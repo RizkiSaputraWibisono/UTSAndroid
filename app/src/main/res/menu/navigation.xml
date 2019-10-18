@@ -3,14 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <item android:id="@+id/action_food"
+    <item android:id="@+id/home"
         android:title="Makanan"
-        android:icon="@drawable/ic_food" />
-    <item android:id="@+id/action_movie"
-        android:title="Movie"
-        android:icon="@drawable/ic_movie" />
-    <item android:id="@+id/action_discount"
-        android:title="Discount"
-        android:icon="@drawable/ic_discount" />
+        android:icon="@drawable/meatlogo" />
+
+    <item android:id="@+id/minum"
+        android:title="Minuman"
+        android:icon="@drawable/minuman" />
+
 
 </menu>

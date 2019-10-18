@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dot_light_screen1"
+    tools:context=".fragments.EsCendolDawetFragment">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="145dp"
+        android:layout_height="151dp"
+        android:src="@drawable/cendoldawet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="367dp"
+        android:layout_height="464dp"
+        android:text=" Bahan-bahan:\n
+ cendol hijau jadi secukupnya (beli di warung/pasar)\n
+ buah nangka secukupnya (potong dadu kecil)\n
+ biji selasih secukupnya/n
+ secukupnya es batu
+\n\n
+ Bahan kuah gula merah:\n
+ 200 gr gula merah\n
+ 75 ml air\n
+ 2 lembar daun pandan\n
+ 1/2 sdt vanili\n\n
+
+Bahan kuah santan:\n
+1/2 butir kelapa (parut)\n
+450 ml air\n
+2 lembar daun pandan\n
+1/4 sdt garam\n
+1/2 sdt vanili\n\n
+
+Saran Penyajian:\n
+Rebus gula merah bersama dengan air. Aduk dan tunggu  hingga larut dan mendidih. Angkat lalu saring larutan  gula tersebut.
+Siapkan wadah untuk menyajikan cendol. Masukkan larutan gula yang telah Anda buat ke dalam tempat penyajian, tambahkan cendol, irisan buah nangka, dan santan. Jangan lupa tambahkan es batu agar lebih nikmat dan lebih terasa mennyegarkan.
+Es cendol buatan Anda siap untuk disajikan"
+        android:textSize="14dp"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,4 @@
-package polinema.ac.id.androiduistarter.fragments;
+package polinema.ac.id.UTS.fragments;
 
 import android.content.Context;
 import android.net.Uri;
@@ -10,18 +10,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import polinema.ac.id.androiduistarter.R;
+import polinema.ac.id.UTS.R;
 
-///**
-// * A simple {@link Fragment} subclass.
-// * Activities that contain this fragment must implement the
-// * {@link Foodfragment.OnFragmentInteractionListener} interface
-// * to handle interaction events.
-// */
-public class Foodfragment extends Fragment {
+public class MenuMakananFragment extends Fragment {
 
 
-    public Foodfragment() {
+    public MenuMakananFragment() {
         // Required empty public constructor
     }
 
@@ -30,7 +24,6 @@ public class Foodfragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_foodfragment, container, false);
+        return inflater.inflate(R.layout.fragment_menu_makanan, container, false);
     }
-
 }
