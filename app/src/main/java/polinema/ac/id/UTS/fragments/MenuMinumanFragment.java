@@ -39,6 +39,7 @@ public class MenuMinumanFragment extends Fragment {
         ImageView minuman1 =  view.findViewById(R.id.minuman1);
         ImageView minuman2 =  view.findViewById(R.id.minuman2);
         ImageView minuman3 =  view.findViewById(R.id.minuman3);
+        ImageView minuman4 =  view.findViewById(R.id.minuman4);
     
 
         minuman1.setOnClickListener(new View.OnClickListener() {
@@ -64,6 +65,15 @@ public class MenuMinumanFragment extends Fragment {
             public void onClick(View view) {
                 if (mListener != null){
                     mListener.onMinuman3Clicked();
+                }
+            }
+        });
+
+        minuman4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (mListener != null){
+                    mListener.onMinuman4Clicked();
                 }
             }
         });
@@ -108,6 +118,8 @@ public class MenuMinumanFragment extends Fragment {
         void onMinuman2Clicked();
 
         void onMinuman3Clicked();
+
+        void onMinuman4Clicked();
     }
 
 }

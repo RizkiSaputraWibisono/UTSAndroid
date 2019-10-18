@@ -13,6 +13,7 @@ import polinema.ac.id.UTS.R;
 import polinema.ac.id.UTS.fragments.EsCampurFragment;
 import polinema.ac.id.UTS.fragments.EsCendolDawetFragment;
 import polinema.ac.id.UTS.fragments.EsPisangHijauFragment;
+import polinema.ac.id.UTS.fragments.EsSelendangMayangFragment;
 import polinema.ac.id.UTS.fragments.HomeFragment;
 import polinema.ac.id.UTS.fragments.MenuMakananFragment;
 import polinema.ac.id.UTS.fragments.MenuMinumanFragment;
@@ -84,5 +85,10 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
     @Override
     public void onMinuman3Clicked() {
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new EsPisangHijauFragment()).addToBackStack(null).commit();
+    }
+
+    @Override
+    public void onMinuman4Clicked() {
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new EsSelendangMayangFragment()).addToBackStack(null).commit();
     }
 }

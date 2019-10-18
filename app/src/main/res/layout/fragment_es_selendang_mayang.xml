@@ -19,8 +19,11 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ScrollView
-        android:layout_width="361dp"
-        android:layout_height="503dp"
+        android:id="@+id/scrollView2"
+        android:layout_width="409dp"
+        android:layout_height="485dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,39 +36,47 @@
 
             <TextView
                 android:id="@+id/textView"
-                android:layout_width="390dp"
-                android:layout_height="505dp"
-
-                android:text=" Bahan Es Selendang Mayang : \n
-        1.000 ml air\n
-        2 lembar pandan, diikat\n
-        100 gram tepung hunkwe\n
-        50 gram tepung beras\n
-        1/2 sendok teh vanili bubuk\n
-        1/2 sendok teh garam\n
-        15 ml air daun suji dari 20 lembar daun suji dan 2 lembar daun pandan\n
-        5 tetes pewarna merah cabai\n
-        \n
-        Bahan Saus:\n
-        300 gram gula merah\n
-        100 gram gula pasir\n
-        200 ml air\n
-        1 lembar daun pandan\n\n
-        Bahan Kuah Santan:\n
-        500 ml santan yang diambil dari 1 butir kelapa\n
-        2 daun pandan yang diikat dan di simpul\n
-        1/2 sendok teh garam\n\n
-        Pelengkap:\n
-        700 gram es serut\n\n
-        Cara Membuat: \n
-        Campur semua bahan adonan aduk hingga rata. Lalu bagi menjadi 2.\n
-        Warna satu adonan dengan warna hijau aduk hingga rata, dan yang satu biarkan saja berwarna putih.\n
-        Masak adonan dengan api kecil tweus menerus diaduk agar tidak gosong dan matang merata atau sampai adonan meletup letup, angkat dan taruh di cetakan lakukan hal yang sama untuk yang warna putih. Biarkan dingin baru bisa dipotong.\n
-        Campur semua bahan sirup masak hingga kental, angkat dan sisihkan.\n
-
-        "
+                android:layout_width="match_parent"
+                android:layout_height="621dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="35dp"
+                android:text="   Bahan Es Selendang Mayang : \n
+ 1.000 ml air\n
+ 2 lembar pandan, diikat\n
+ 100 gram tepung hunkwe\n
+ 50 gram tepung beras\n
+ 1/2 sendok teh vanili bubuk\n
+ 1/2 sendok teh garam\n
+ 15 ml air daun suji dari 20 lembar daun suji dan 2 lembar daun pandan\n
+ 5 tetes pewarna merah cabai\n
+\n
+ Bahan Saus:\n
+ 300 gram gula merah\n
+ 100 gram gula pasir\n
+ 200 ml air\n
+ 1 lembar daun pandan\n\n
+ Bahan Kuah Santan:\n
+ 500 ml santan yang diambil dari 1 butir kelapa\n
+ 2 daun pandan yang diikat dan di simpul\n
+ 1/2 sendok teh garam\n\n
+ Pelengkap:\n
+ 700 gram es serut\n\n
+ Cara Membuat: \n
+ Campur semua bahan adonan aduk hingga rata. Lalu bagi menjadi 2.\n
+ Warna satu adonan dengan warna hijau aduk hingga rata, dan yang satu biarkan saja berwarna putih.\n
+ Masak adonan dengan api kecil tweus menerus diaduk agar tidak gosong dan matang merata atau sampai adonan meletup letup, angkat dan taruh di cetakan lakukan hal yang sama untuk yang warna putih. Biarkan dingin baru bisa dipotong.\n
+ Campur semua bahan sirup masak hingga kental, angkat dan sisihkan.\n
+ Campur semua bahan santan masak hingga mendidih sambil di aduk agar santannya tidak pecah. Angkat dan dinginkan.\n
+ Penyajian: potong selendang mayangnya sesuai selera, lalu tambahkan sirup dan santan jangan lupa es batu. \n
+"
+                android:textAlignment="inherit"
                 android:textSize="14dp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/scrollView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
         </LinearLayout>
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
